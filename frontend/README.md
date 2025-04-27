@@ -1,41 +1,27 @@
-## School Payments & Dashboard Application
+# School Payments Dashboard Frontend
 
-## Developed By
-**Srija Reddy Bobbala**  
-Full Stack Developer Intern Candidate | Symfor Technologies
+## Tech Stack
+- React.js
+- Axios
+- Tailwind CSS / Bootstrap / Material UI
+- React Router
 
----
+## Features
+- Transactions dashboard with filters and pagination
+- School-based transaction filter
+- Transaction status checker
 
-## Project Overview
+## Deployment
+- Hosted URL: [https://school-payments-frontend.vercel.app/]
 
-This project is a full-stack web application to manage **School Payment Transactions**.  
-Built using **Node.js (Express)**, **MongoDB**, **React.js**, **Tailwind CSS**, and **Swagger API Documentation**.
+## Setup Instructions
+1. Clone the repo
+2. Install dependencies: `npm install`
+3. Start the dev server: `npm run dev` (for Vite) or `npm start` (for CRA)
 
-It features:
-- Importing students & transactions from Excel files.
-- Viewing all payment transactions with search and pagination.
-- Viewing transactions based on school ID.
-- Checking the status of any transaction by custom_order_id.
-- Manual and Webhook updates for transaction statuses.
-
----
-
-##  Tech Stack
-
-| Frontend  | Backend     | Database  | Deployment |
-| :-------: | :---------: | :--------:| :--------: |
-| React.js  | Node.js + Express | MongoDB Atlas | Render (backend), Vercel (frontend) |
-| Tailwind CSS | Swagger Docs | Mongoose | CI/CD Enabled |
-
----
-
-##  Features
-
-- View all transactions
-- Filter by status and date range
-- Fetch transactions by school
-- Check payment transaction status
-- Responsive mobile-friendly design
-- Swagger API Documentation
-
----
+## Screenshots
+![dashboard:](image.png)
+![filtered by success state working:](image-1.png)
+![search by school name working:](image-2.png)
+![check status page](image-3.png)
+![status returned working:](image-4.png)
